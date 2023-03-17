@@ -1,0 +1,66 @@
+body{
+    background-color: #FF8787;
+    text-align:center;
+    font-family: 'Merriweather';
+}
+
+h1{
+    font-size: 7rem;
+    color:#144C52;
+    text-shadow:2px 2px #fff;
+    margin:10% 0 5%;    
+}
+
+.btn{
+    width:150px;
+    height:150px;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #144C52;
+    margin:0 10px 5%;
+    border:solid 10px #E26868;
+    border-radius:15px;
+    background-color: #D8D9CF;
+}
+
+
+p{
+    color:#fff; 
+}
+
+/* different drums */
+
+.w{
+    background-image:url(images/snare.png);
+}
+
+.a{
+    background-image:url(images/tom1.png);
+}
+
+.s{
+    background-image:url(images/kick.png);
+}
+
+.d{
+    background-image:url(images/tom2.png);
+}
+
+
+.j{
+    background-image:url(images/tom3.png);
+}
+
+.k{
+    background-image:url(images/tom4.png);
+}
+
+.l{
+    background-image:url(images/crash.png);
+}
+
+.pressed{
+    box-shadow: 0 10px 10px 0;
+    opacity: 1.0;
+}
+
